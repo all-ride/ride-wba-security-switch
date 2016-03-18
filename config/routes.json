@@ -1,0 +1,12 @@
+{
+    "routes":  [
+        {
+            "path": "/profile/switch",
+            "controller": "ride\\web\\security\\user\\controller\\UserSwitchController",
+            "action": "indexAction",
+            "id": "profile.switch",
+            "methods": ["head", "post", "get"]
+        }
+    ]
+}
+

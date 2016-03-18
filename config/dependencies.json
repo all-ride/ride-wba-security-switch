@@ -1,0 +1,54 @@
+{
+    "dependencies": [
+        {
+            "class": "ride\\web\\base\\menu\\MenuItem",
+            "id": "profile.switch",
+            "calls": [
+                {
+                    "method": "setTranslation",
+                    "arguments": [
+                        {
+                            "name": "key",
+                            "type": "scalar",
+                            "properties": {
+                                "value": "title.user.switch"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "method": "setRoute",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "scalar",
+                            "properties": {
+                                "value": "profile.switch"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "ride\\web\\base\\menu\\Menu",
+            "extends": "user",
+            "id": "user",
+            "calls": [
+                {
+                    "method": "addMenuItem",
+                    "arguments": [
+                        {
+                            "name": "menuItem",
+                            "type": "dependency",
+                            "properties": {
+                                "interface": "ride\\web\\base\\menu\\MenuItem",
+                                "id": "profile.switch"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

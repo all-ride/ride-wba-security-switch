@@ -1,0 +1,33 @@
+{
+    "name": "ride/wba-security-switch",
+    "description": "User switch integration in the Ride Framework",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        },
+        {
+            "name": "Kristof Serré",
+            "email": "kristof@statik.be"
+        }
+
+    ],
+    "require": {
+        "ride/app-form": ">=0.2.0",
+        "ride/lib-form": ">=0.13.0",
+        "ride/app": ">=0.5.0",
+        "ride/app-orm": ">=0.3.1",
+        "ride/lib-orm": ">=0.6.3",
+        "ride/lib-security": ">=0.9.0",
+        "ride/lib-system": ">=0.1.2",
+        "ride/web": ">=0.2.4",
+        "ride/web-security-orm": ">=0.4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\web\\security\\": ["src/"]
+        }
+    }
+}
