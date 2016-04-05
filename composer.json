@@ -15,7 +15,7 @@
 
     ],
     "require": {
-        "ride/web-security-orm": "<=0.4.1"
+        "ride/lib-security": ">= 0.10.0"
     },
     "autoload": {
         "psr-0": {
