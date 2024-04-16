@@ -2,7 +2,6 @@
     "name": "ride/wba-security-switch",
     "description": "User switch integration in the Ride Framework",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Joris Vandeweerd",
